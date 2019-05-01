@@ -9,11 +9,10 @@ body {
   margin: 0px;
 }
 h1 {
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-size: 50;
 }
 h2 {
-  font-weight: lighter
+  font-weight: lighter;
 }
 .container {
   width: 720px;
@@ -32,11 +31,11 @@ h2 {
   color: white;
   text-decoration: none;
   padding: 12px;
-  border-radius: 16px
+  border-radius: 12px
 
 }
 #btn:hover {
-  background-color: black;
+  opacity: 0.7;
 }
 a{
   color: black;
@@ -44,6 +43,9 @@ a{
 li {
   padding: 10px;
   display: inline-block;
+}
+li:hover {
+  opacity: 0.4;
 }
 .list_inline {
   list-style: none;
